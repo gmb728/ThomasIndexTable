@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD68CFB8216B3983006EA528 /* chuchu.mov in Resources */ = {isa = PBXBuildFile; fileRef = DD68CFB7216B3983006EA528 /* chuchu.mov */; };
+		DD68CFBA216B46B1006EA528 /* Thomas&his friends.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD68CFB9216B46B1006EA528 /* Thomas&his friends.m4a */; };
+		DD68CFBC216CA07C006EA528 /* incorrect.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD68CFBB216CA07C006EA528 /* incorrect.mp4 */; };
 		DDBBC672211AAF4E0080815D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBC671211AAF4E0080815D /* AppDelegate.swift */; };
-		DDBBC674211AAF4E0080815D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBC673211AAF4E0080815D /* ViewController.swift */; };
 		DDBBC677211AAF4E0080815D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBBC675211AAF4E0080815D /* Main.storyboard */; };
 		DDBBC679211AAF4F0080815D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBBC678211AAF4F0080815D /* Assets.xcassets */; };
 		DDBBC67C211AAF4F0080815D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBBC67A211AAF4F0080815D /* LaunchScreen.storyboard */; };
+		DDBBC684211AAFA80080815D /* thomasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBC683211AAFA80080815D /* thomasViewController.swift */; };
+		DDEFF80B21676BCF009D0342 /* thomasSilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFF80A21676BCF009D0342 /* thomasSilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD68CFB7216B3983006EA528 /* chuchu.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = chuchu.mov; path = ../../../Desktop/Thomas/chuchu.mov; sourceTree = "<group>"; };
+		DD68CFB9216B46B1006EA528 /* Thomas&his friends.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Thomas&his friends.m4a"; path = "../../../Desktop/Thomas/Thomas&his friends.m4a"; sourceTree = "<group>"; };
+		DD68CFBB216CA07C006EA528 /* incorrect.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = incorrect.mp4; path = ../../../Desktop/Thomas/incorrect.mp4; sourceTree = "<group>"; };
 		DDBBC66E211AAF4E0080815D /* Thomas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thomas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBBC671211AAF4E0080815D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDBBC673211AAF4E0080815D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDBBC676211AAF4E0080815D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDBBC678211AAF4F0080815D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDBBC67B211AAF4F0080815D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDBBC67D211AAF4F0080815D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBBC683211AAFA80080815D /* thomasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thomasViewController.swift; sourceTree = "<group>"; };
+		DDEFF80A21676BCF009D0342 /* thomasSilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thomasSilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		DDBBC670211AAF4E0080815D /* Thomas */ = {
 			isa = PBXGroup;
 			children = (
+				DD68CFBB216CA07C006EA528 /* incorrect.mp4 */,
+				DD68CFB9216B46B1006EA528 /* Thomas&his friends.m4a */,
+				DD68CFB7216B3983006EA528 /* chuchu.mov */,
 				DDBBC671211AAF4E0080815D /* AppDelegate.swift */,
-				DDBBC673211AAF4E0080815D /* ViewController.swift */,
+				DDBBC683211AAFA80080815D /* thomasViewController.swift */,
 				DDBBC675211AAF4E0080815D /* Main.storyboard */,
 				DDBBC678211AAF4F0080815D /* Assets.xcassets */,
 				DDBBC67A211AAF4F0080815D /* LaunchScreen.storyboard */,
 				DDBBC67D211AAF4F0080815D /* Info.plist */,
+				DDEFF80A21676BCF009D0342 /* thomasSilder.swift */,
 			);
 			path = Thomas;
 			sourceTree = "<group>";
@@ -123,7 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDBBC67C211AAF4F0080815D /* LaunchScreen.storyboard in Resources */,
+				DD68CFBC216CA07C006EA528 /* incorrect.mp4 in Resources */,
 				DDBBC679211AAF4F0080815D /* Assets.xcassets in Resources */,
+				DD68CFB8216B3983006EA528 /* chuchu.mov in Resources */,
+				DD68CFBA216B46B1006EA528 /* Thomas&his friends.m4a in Resources */,
 				DDBBC677211AAF4E0080815D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDBBC674211AAF4E0080815D /* ViewController.swift in Sources */,
+				DDEFF80B21676BCF009D0342 /* thomasSilder.swift in Sources */,
 				DDBBC672211AAF4E0080815D /* AppDelegate.swift in Sources */,
+				DDBBC684211AAFA80080815D /* thomasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
