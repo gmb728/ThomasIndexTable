@@ -11,31 +11,27 @@ import AVFoundation
 
 class thomasViewController: UIViewController {
    var player: AVPlayer?
-   var shape = ""
-
-    @IBOutlet weak var ans1: UIButton!
-    @IBOutlet weak var ans2: UIButton!
-    @IBOutlet weak var playagain: UIButton!
-    @IBOutlet weak var nameButton: UIButton!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var squareButton: UIButton!
-    @IBOutlet weak var circleButton: UIButton!
+  
     
-    @IBOutlet weak var chuSlider: thomasSilder!
-    var newNames: ArraySlice<String> = []
-    var newCircles: ArraySlice<String> = []
-    var newSquares: ArraySlice<String> = []
+    let engines = ["Edward", "Thomas", "Percy", "Emily", "Henry", "James", "Den", "Dart", "Donald", "Douglas", "Belle", "Gordon","Ryan","Rex","Ashima","Arthur","Bill","Billy","Carlos","Charlie","Dash","Fredinand","Duncan","Duck","Fergus","Bash","Ben","Mike","Bert", "Clarabel", "Daisy", "Colin", "Diesel", "Dennis", "Etienne","Elizabeth", "Frankie", "Iron's arry", "Iron Bert", "Annie", "Toby", "Bertie", "Butch"]
     
-    let names = ["Edward", "Thomas", "Percy", "Emily", "Henry", "James", "Den", "Dart", "Donald", "Douglas", "Belle", "Gordon"]
-    let circles = ["Ryan","Rex","Ashima","Arthur","Bill","Billy","Carlos","Charlie","Dash","Fredinand","Duncan","Duck","Fergus","Bash","Ben","Mike","Bert"]
-    let squares = ["Clarabel", "Daisy", "Colin", "Diesel", "Dennis", "Etienne","Elizabeth", "Frankie", "Iron's arry", "Iron Bert", "Annie", "Toby", "Bertie", "Butch"]
+    var enginesDict = [String: [String]]()
+    var enginesSectionTitles = [String]()
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
     
-    @IBAction func playagain(_ sender: UIButton) {
-        self.chuSlider.value = 0
-        ans1.isEnabled = true
-        ans2.isEnabled = true
-        
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    override func tableView(_ tableView: UITableBiew, numberOfRowsInSection section: Int) ->
+        Int {
+            return engines.count
     }
     
     //12 questions
